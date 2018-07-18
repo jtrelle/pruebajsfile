@@ -47,7 +47,7 @@ $(document).ready(function(){
                 showMessage(message);
                 if(isImage(fileExtension))
                 {
-                    $(".showImage").html("<img src='files/"+data+"' />");
+                    $(".showImage").html("<img src='audios/"+data+"' />");
                 }
             },
             //si ha ocurrido un error
